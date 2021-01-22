@@ -1,0 +1,12 @@
+query CountryList {
+    countries {
+        name
+        continent {
+            name
+        }
+        capital
+        states {
+            name
+        }
+    }
+}
